@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <title>Магазин</title>
-  <meta charset="UTF-8" />
-  <meta name="format-detection" content="telephone=no" />
-  <link rel="stylesheet" href="css/style.min.css" />
-  <link rel="shortcut icon" href="favicon.ico" />
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-	<body>
-		<section class="wrapper">
-			<header class="header">
+  <head>
+    <title>Магазин</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
         <div class="header__content _container">
           <div class="header__body">
             <a href="index.html" class="header__logo logo">
               <div class="logo__body">
-                <picture><source srcset="img/icons/logo.svg" type="image/webp"><img src="img/icons/logo.svg" class="logo__image" alt="barbershop" /></picture>
+                <picture>
+                  <source srcset="img/icons/logo.svg" type="image/webp" />
+                  <img src="img/icons/logo.svg" class="logo__image" alt="barbershop" />
+                </picture>
               </div>
             </a>
             <div class="header__menu menu">
@@ -41,14 +45,14 @@
           </div>
         </div>
       </header>
-			<main class="page">
+      <main class="page">
         <div class="page__shop shop">
           <div class="shop__container _container">
             <div class="shop__title title">СРЕДСТВА ДЛЯ УХОДА</div>
             <ul class="shop__breadcrumbs breadcrumbs">
-                <li><a href="index.html" class="breadcrumbs__link">ГЛАВНАЯ</a></li>
-                <li><a href="shop.html" class="breadcrumbs__link">МАГАЗИН</a></li>
-                <li><a href="shop.html" class="breadcrumbs__link">СРЕДСТВА ДЛЯ УХОДА</a></li>
+              <li><a href="index.html" class="breadcrumbs__link">ГЛАВНАЯ</a></li>
+              <li><a href="shop.html" class="breadcrumbs__link">МАГАЗИН</a></li>
+              <li><a href="shop.html" class="breadcrumbs__link">СРЕДСТВА ДЛЯ УХОДА</a></li>
             </ul>
             <div class="shop__body">
               <div class="shop__aside aside-shop">
@@ -58,46 +62,46 @@
                     <form class="producer__form form-producer">
                       <ul class="form-producer__list">
                         <li class="form-producer__brand brand-item">
-                          <input id="baxter" data-error="Ошибка" class="brand-item__input" type="checkbox" value="1" name="form[]">
+                          <input id="baxter" data-error="Ошибка" class="brand-item__input" type="checkbox" value="1" name="form[]" />
                           <label class="brand-item__name" for="baxter"><span>Baxter of California</span></label>
                         </li>
                         <li class="form-producer__brand brand-item">
-                          <input id="mrnatty" data-error="Ошибка" class="brand-item__input" type="checkbox" value="2" name="form[]">
+                          <input id="mrnatty" data-error="Ошибка" class="brand-item__input" type="checkbox" value="2" name="form[]" />
                           <label class="brand-item__name" for="mrnatty"><span>Mr Natty</span></label>
                         </li>
                         <li class="form-producer__brand brand-item">
-                          <input id="suavecito" data-error="Ошибка" class="brand-item__input" type="checkbox" value="3" name="form[]">
+                          <input id="suavecito" data-error="Ошибка" class="brand-item__input" type="checkbox" value="3" name="form[]" />
                           <label class="brand-item__name" for="suavecito"><span>Suavecito</span></label>
                         </li>
                         <li class="form-producer__brand brand-item">
-                          <input id="malingoetz" data-error="Ошибка" class="brand-item__input" type="checkbox" value="4" name="form[]">
+                          <input id="malingoetz" data-error="Ошибка" class="brand-item__input" type="checkbox" value="4" name="form[]" />
                           <label class="brand-item__name" for="malingoetz"><span>Malin+Goetz</span></label>
                         </li>
                         <li class="form-producer__brand brand-item">
-                          <input id="murrays" data-error="Ошибка" class="brand-item__input" type="checkbox" value="5" name="form[]">
+                          <input id="murrays" data-error="Ошибка" class="brand-item__input" type="checkbox" value="5" name="form[]" />
                           <label class="brand-item__name" for="murrays"><span>Murray’s</span></label>
                         </li>
                         <li class="form-producer__brand brand-item">
-                          <input id="americancrew" data-error="Ошибка" class="brand-item__input" type="checkbox" value="6" name="form[]">
+                          <input id="americancrew" data-error="Ошибка" class="brand-item__input" type="checkbox" value="6" name="form[]" />
                           <label class="brand-item__name" for="americancrew"><span>American Crew</span></label>
                         </li>
                       </ul>
                     </form>
                   </div>
                   <div class="aside-shop__goods-types goods-types">
-                    <div class="goods-types__title  title">ГРУППЫ ТОВАРОВ:</div>
+                    <div class="goods-types__title title">ГРУППЫ ТОВАРОВ:</div>
                     <form class="goods-types__form form-types">
                       <ul class="form-types__list">
                         <li class="form-types__type type-item">
-                          <input id="shavingaccessories" data-error="Ошибка" class="type-item__input" type="radio" value="1" name="product-type">
+                          <input id="shavingaccessories" data-error="Ошибка" class="type-item__input" type="radio" value="1" name="product-type" />
                           <label class="type-item__name" for="shavingaccessories">Бритвенные принадлежности</label>
                         </li>
                         <li class="form-types__type type-item">
-                          <input id="careproducts" data-error="Ошибка" class="type-item__input" type="radio" value="2" name="product-type">
+                          <input id="careproducts" data-error="Ошибка" class="type-item__input" type="radio" value="2" name="product-type" />
                           <label class="type-item__name" for="careproducts">Средства для ухода</label>
                         </li>
                         <li class="form-types__type type-item">
-                          <input id="accessories" data-error="Ошибка" class="type-item__input" type="radio" value="3" name="product-type">
+                          <input id="accessories" data-error="Ошибка" class="type-item__input" type="radio" value="3" name="product-type" />
                           <label class="type-item__name" for="accessories">Аксессуары</label>
                         </li>
                       </ul>
@@ -111,7 +115,10 @@
                   <div class="main-shop__card card">
                     <a href="item.html" class="card__body _anim-items">
                       <div class="card__image _ibg">
-                        <picture><source srcset="img/shop/shop01.webp" type="image/webp"><img src="img/shop/shop01.png" alt="accessories"></picture>
+                        <picture>
+                          <source srcset="img/shop/shop01.webp" type="image/webp" />
+                          <img src="img/shop/shop01.png" alt="accessories" />
+                        </picture>
                       </div>
                       <div class="card__info">
                         <div class="card__name">Набор для путешествий</div>
@@ -126,7 +133,10 @@
                   <div class="main-shop__card card">
                     <a href="item.html" class="card__body _anim-items">
                       <div class="card__image _ibg">
-                        <picture><source srcset="img/shop/shop02.webp" type="image/webp"><img src="img/shop/shop02.png" alt="accessories"></picture>
+                        <picture>
+                          <source srcset="img/shop/shop02.webp" type="image/webp" />
+                          <img src="img/shop/shop02.png" alt="accessories" />
+                        </picture>
                       </div>
                       <div class="card__info">
                         <div class="card__name">Увлажняющий кондиционер</div>
@@ -141,7 +151,10 @@
                   <div class="main-shop__card card">
                     <a href="item.html" class="card__body _anim-items">
                       <div class="card__image _ibg">
-                        <picture><source srcset="img/shop/shop03.webp" type="image/webp"><img src="img/shop/shop03.png" alt="accessories"></picture>
+                        <picture>
+                          <source srcset="img/shop/shop03.webp" type="image/webp" />
+                          <img src="img/shop/shop03.png" alt="accessories" />
+                        </picture>
                       </div>
                       <div class="card__info">
                         <div class="card__name">Гель для волос</div>
@@ -156,7 +169,10 @@
                   <div class="main-shop__card card">
                     <a href="item.html" class="card__body _anim-items">
                       <div class="card__image _ibg">
-                        <picture><source srcset="img/shop/shop04.webp" type="image/webp"><img src="img/shop/shop04.png" alt="accessories"></picture>
+                        <picture>
+                          <source srcset="img/shop/shop04.webp" type="image/webp" />
+                          <img src="img/shop/shop04.png" alt="accessories" />
+                        </picture>
                       </div>
                       <div class="card__info">
                         <div class="card__name">Глина для укладки волос</div>
@@ -171,7 +187,10 @@
                   <div class="main-shop__card card">
                     <a href="item.html" class="card__body _anim-items">
                       <div class="card__image _ibg">
-                        <picture><source srcset="img/shop/shop05.webp" type="image/webp"><img src="img/shop/shop05.png" alt="accessories"></picture>
+                        <picture>
+                          <source srcset="img/shop/shop05.webp" type="image/webp" />
+                          <img src="img/shop/shop05.png" alt="accessories" />
+                        </picture>
                       </div>
                       <div class="card__info">
                         <div class="card__name">Гель для волос</div>
@@ -186,7 +205,10 @@
                   <div class="main-shop__card card">
                     <a href="item.html" class="card__body _anim-items">
                       <div class="card__image _ibg">
-                        <picture><source srcset="img/shop/shop06.webp" type="image/webp"><img src="img/shop/shop06.png" alt="accessories"></picture>
+                        <picture>
+                          <source srcset="img/shop/shop06.webp" type="image/webp" />
+                          <img src="img/shop/shop06.png" alt="accessories" />
+                        </picture>
                       </div>
                       <div class="card__info">
                         <div class="card__name">Набор для бритья</div>
@@ -219,9 +241,8 @@
             </div>
           </div>
         </div>
-       
-			</main>
-			<footer class="footer">
+      </main>
+      <footer class="footer">
         <div class="footer__content _container">
           <div class="footer__row">
             <div class="footer__column">
@@ -238,17 +259,26 @@
                 <ul class="social-footer__links">
                   <li>
                     <a href="https://vk.com/" target="blank" class="social-footer__link">
-                      <picture><source srcset="img/icons/vk.svg" type="image/webp"><img src="img/icons/vk.svg" alt="vk" /></picture>
+                      <picture>
+                        <source srcset="img/icons/vk.svg" type="image/webp" />
+                        <img src="img/icons/vk.svg" alt="vk" />
+                      </picture>
                     </a>
                   </li>
                   <li>
                     <a href="https://ru-ru.facebook.com/" target="blank" class="social-footer__link">
-                      <picture><source srcset="img/icons/facebook.svg" type="image/webp"><img src="img/icons/facebook.svg" alt="facebook" /></picture>
+                      <picture>
+                        <source srcset="img/icons/facebook.svg" type="image/webp" />
+                        <img src="img/icons/facebook.svg" alt="facebook" />
+                      </picture>
                     </a>
                   </li>
                   <li>
                     <a href="https://www.instagram.com/" target="blank" class="social-footer__link">
-                      <picture><source srcset="img/icons/instagram.svg" type="image/webp"><img src="img/icons/instagram.svg" alt="instagram" /></picture>
+                      <picture>
+                        <source srcset="img/icons/instagram.svg" type="image/webp" />
+                        <img src="img/icons/instagram.svg" alt="instagram" />
+                      </picture>
                     </a>
                   </li>
                 </ul>
@@ -257,6 +287,7 @@
           </div>
         </div>
       </footer>
+    </div>
     <div class="popup popup_map">
       <div class="popup__content">
         <div class="popup__body">
@@ -303,5 +334,5 @@
     </div>
     <script src="js/vendors.min.js"></script>
     <script src="js/app.min.js"></script>
-	</body>
+  </body>
 </html>
